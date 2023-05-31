@@ -1,0 +1,15 @@
+.tarea-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+#lista-tareas-style {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 10%;
+}

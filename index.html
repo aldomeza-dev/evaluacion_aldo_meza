@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheet.css" />
+    <title>Evaluacion✌🏼</title>
+  </head>
+  <body>
+    <!-- formulario que permite al usuario ingresar tareas -->
+    <form class="tarea-form" id="tarea-form">
+      <label for="tarea">Introduce la tarea</label>
+      <input
+        type="text"
+        name="tarea"
+        id="tarea"
+        placeholder="Escribe el titulo de la tarea"
+        autocomplete="off"
+      />
+
+      <div class="divider" style="margin: 0.5rem"></div>
+
+      <button type="button" onclick="ListaTareas.agregarTarea()">Enviar</button>
+    </form>
+    <div class="divider" style="margin: 0.5rem"></div>
+    <div id="#lista-tareas-style">
+      <h2>Lista de tareas</h2>
+      <ol id="lista-tareas">
+        <h3>No hay tareas...</h3>
+      </ol>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
